@@ -7,6 +7,6 @@ const func1 = () => {
   x = x + 1;
   y = x;
 
-  document.getElementById('f1').innerHTML = x;
-  document.getElementById('f2').innerHTML = y;
+  document.getElementById('this-paragraph').innerHTML = x;
+  document.getElementById('that-one').innerHTML = y;
 };
